@@ -18,3 +18,10 @@ library(palmerpenguins)
 ggplot(data = penguins, aes(x = body_mass_g, y = bill_depth_mm)) +
   geom_point()
 ```
+
+```{r}
+
+ggplot(data = penguins, aes(x = island, y = bill_depth_mm)) +
+  geom_jitter()
+
+```
